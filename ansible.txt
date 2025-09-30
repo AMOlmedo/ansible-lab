@@ -1,0 +1,7 @@
+ANSIBLE
+Herramienta de Gesttion de Configuracion
+Utiliza yaml y es imperativo, es decir sigue un orden
+Esta desarrollado en py
+idempotente: si el host ya se encuentra en el estado descripto en el plabbok, NO vuelve a realizar los cambios
+galaxy es como un "docker  hub" donde se pueden descargar playbooks varios
+
