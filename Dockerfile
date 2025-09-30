@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y openssh-server
 EXPOSE 22
 
 # Establece la contraseña para el usuario 'root' (¡cambia 'tu_contraseña' por una segura!)
-RUN echo 'root:tu_contraseña' | chpasswd
+RUN echo 'root:passw123' | chpasswd
 
 # Habilita el inicio de sesión como root por SSH (no recomendado para producción)
 RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
