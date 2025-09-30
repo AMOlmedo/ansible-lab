@@ -4,4 +4,8 @@ Utiliza yaml y es imperativo, es decir sigue un orden
 Esta desarrollado en py
 idempotente: si el host ya se encuentra en el estado descripto en el plabbok, NO vuelve a realizar los cambios
 galaxy es como un "docker  hub" donde se pueden descargar playbooks varios
+Ansible Automation Platform:
+La Red Hat Ansible Automation Platform es una solución unificada para automatizar la administración de infraestructura y operaciones de TI, 
+permitiendo a las empresas automatizar tareas, optimizar flujos de trabajo y unificar entornos de TI complejos. 
+Utiliza el motor de automatización de código abierto Ansible, pero lo integra en una plataforma empresarial completa con funciones de seguridad, gobierno y herramientas para escalar la automatización a toda la organización
 
